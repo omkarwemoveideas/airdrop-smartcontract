@@ -1,0 +1,24 @@
+{
+  "name": "token-airdrop-contract",
+  "version": "1.0.0",
+  "description": "Airdrop Tokens",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@fast-csv/parse": "^4.3.6",
+    "@openzeppelin/contracts": "^3.4.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "dotenv": "^16.0.0",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omkar Sai",
+  "license": "ISC"
+}
